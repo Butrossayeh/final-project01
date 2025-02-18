@@ -1,0 +1,18 @@
+h2{
+    text-align: center;
+}
+.head{
+    font-size: xx-large;
+}
+p{
+    color: black;
+}
+a{
+    color: beige;
+}
+*{
+    background-color: beige;
+}
+.body{
+    width: 65%;
+}

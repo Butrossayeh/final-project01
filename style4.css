@@ -1,0 +1,21 @@
+.head{
+    font-size: xx-large;
+}
+p{
+    color: black;
+}
+a{
+    color: bisque;
+}
+h2{
+    text-align: center;
+}
+*{
+    background-color: bisque;
+}
+li{
+    color: black;
+}
+.body{
+    padding-left: 5%;
+}

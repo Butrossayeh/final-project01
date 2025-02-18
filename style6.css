@@ -1,0 +1,46 @@
+.cover img {
+    height: 250px;
+    width: 380px;
+    flex-direction: column;
+}
+
+.cover {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.b{
+    gap: 20px;
+ display: flex;   
+ flex-wrap: wrap;
+}
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 220px;
+    text-align: left;
+}
+.father{
+    display: flex;
+    flex-direction: column;
+}
+*{
+    background-color: beige;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color: rgb(31, 31, 27);
+}
+.head{
+    font-size: xx-large;
+}
+p{
+    color: black;
+}a{
+    color: beige;
+}

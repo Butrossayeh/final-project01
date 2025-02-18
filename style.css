@@ -1,0 +1,758 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.containur {
+    width: 75%;
+    height: 100%;
+
+}
+
+header {
+    height: 100vh;
+    background-image: url(./backgroung.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+li {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.navbar .row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo img {
+    width: 140px;
+    height: 75px;
+    padding-top: 5px;
+}
+
+.HeaderBody {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.HeaderBody h3,h1 {
+    color: beige;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.send {
+    cursor: pointer;
+    height: 20px;
+    width: 50px;
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(255, 255, 255);
+color: beige;
+}
+
+.clear {
+    cursor: pointer;
+    height: 20px;
+    width: 50px;
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(255, 255, 255);
+    color: beige;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    animation-name: x;
+    animation-duration: 3s;
+    animation-delay: 0;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    transition: 1s;
+}
+
+.buttons :hover {
+    background-color: darkslategray;
+}
+
+.HeaderBody button {
+    background-color: darkgrey;
+    height: 30px;
+    width: 100px;
+    border-radius: 20%;
+    border-color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+    .section-five {
+        height: 85vh;
+        background-image: url(./backgroung.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    header {
+        height: 75vh;
+    }
+
+    .containur {
+        width: 90%;
+    }
+
+    .navbar {
+        position: absolute;
+    }
+
+    .navbar .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .List ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .section-one .container .imggg {
+        display: flex;
+        align-items: center;
+    }
+
+    .section-one .container .imggg img {
+        width: 330px;
+        height: 500px;
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+    .section-one .container,
+    .section-two .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .buttons {
+        position: absolute;
+        top: 40vh;
+    }
+
+    .section-two .container .imgg {
+        order: -1;
+    }
+
+    .section-two .container .imgg img {
+        width: 63vh;
+        height: 40vh;
+    }
+
+    .footer1 {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .about_us {
+        width: 100%;
+        text-align: center;
+    }
+
+    .buttons {
+        flex-direction: column;
+    }
+
+    .meduim .tt {
+        width: 100%;
+    }
+
+    .section-three .container {
+        width: 70%;
+    }
+
+    .info h2 {
+        font-size: 25px;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about_us {
+        width: 100%;
+        text-align: center;
+    }
+
+    .buttons {
+        flex-direction: column;
+    }
+
+    .meduim .tt {
+        width: 100%;
+    }
+
+    .footer1 {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .about_us {
+        width: 50%;
+    }
+
+    .footer2 img {
+        width: 200px;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .info h2 {
+        font-size: 25px;
+    }
+
+    .section-five {
+        height: 85vh;
+        background-image: url(./2018-Dodge-Challenger-SRT-Demon-engine-1.avif);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+@media (max-width: 480px) {
+    .section-two .container .imgg img {
+        width: 56vh;
+        height: 40vh;
+    }
+
+    .info h2 {
+        font-size: 20px;
+    }
+
+    .section-five {
+        height: 85vh;
+        background-image: url(./2018-Dodge-Challenger-SRT-Demon-engine-1.avif);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .footer1 {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .about_us {
+        width: 50%;
+    }
+
+    .footer2 img {
+        width: 200px;
+        height: auto;
+    }
+}
+
+@keyframes x {
+    0% {
+        translate: 700px 0px;
+        rotate: 0;
+    }
+
+    25% {
+        translate: 0px 60px;
+        rotate: 0;
+    }
+
+    50% {
+        translate: 0px 60px;
+        rotate: 0;
+    }
+
+    75% {
+        translate: 0px 60px;
+        rotate: 0;
+    }
+
+    100% {
+        translate: 0px 60px;
+
+    }
+
+
+
+}
+
+.HeaderBody .row {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    color: white;
+}
+
+.List ul {
+    display: flex;
+    gap: 20px;
+}
+
+.List {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.HeaderBody p {
+    color: white;
+}
+
+.HeaderBody h1 {
+    animation-name: y;
+    animation-duration: 3s;
+    animation-delay: 0;
+    animation-direction: reverse;
+    animation-iteration-count: 1;
+}
+
+@keyframes y {
+    0% {
+        translate: 0px 0px;
+        rotate: 0;
+    }
+
+    50% {
+        translate: 0px 500px;
+        rotate: 0deg;
+    }
+
+    100% {
+        translate: 0px 0px;
+        rotate: 0deg;
+    }
+}
+
+form {
+    gap: 30px;
+}
+
+input {
+    border-color: rgb(0, 0, 0);
+    height: 20px;
+    width: 150px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.about_us {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.about_us ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+color: white;
+}
+
+.footer .row {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+
+}
+.footer1 {
+    display: flex;
+    gap: 100px;
+color: white;
+}
+
+.div1 i {
+    display: flex;
+    padding: 10px;
+    animation-name: z;
+    animation-duration: 2s;
+    animation-delay: 0;
+    animation-direction: reverse;
+    animation-iteration-count: infinite;
+}
+
+@keyframes z {
+    0% {
+        translate: 0 10px;
+
+    }
+
+    25% {
+        translate: 0 0px;
+
+    }
+
+    50% {
+        translate: 0 10px;
+
+    }
+
+    75% {
+        translate: 0 0px;
+
+    }
+
+    100% {
+        translate: 0 10px;
+
+    }
+}
+
+.div2 {
+    display: flex;
+}
+
+.div3 {
+    display: flex;
+}
+
+.div4 {
+    display: flex;
+}
+
+.about_us h2 {
+    color: rgb(255, 255, 255);
+}
+
+.footer2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.footer2 img {
+    width: 320px;
+    height: 170px;
+}
+
+i {
+    color: rgb(255, 255, 255);
+
+}
+
+.footer .icons button {
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.icons button i {
+    color: rgb(0, 0, 0);
+}
+
+.section-one {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(239, 237, 222, 255);
+}
+
+.section-one .container {
+    display: flex;
+    width: 80%;
+    height: 100vh;
+
+}
+
+.imggg img {
+    width: 450px;
+    height: 650px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+
+}
+
+.data ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.data ul li {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.data .info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section-one li {
+    color: black;
+}
+
+.section-one .data ul li button {
+    width: 50px;
+    height: 50px;
+    background-color: darkslategray;
+    border-radius: 50%;
+    border: none;
+}
+
+.data .info .prag {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+    color: darkslategray;
+}
+
+.section-two {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    background-color: azure;
+}
+
+.section-two .container {
+    display: flex;
+    width: 80%;
+    height: 100vh;
+
+}
+
+.section-two .info h2 {
+    text-shadow: 7px 7px 0px yellow;
+}
+.section-two li{
+    color: black;
+}
+.imgg img {
+    width: 900px;
+    height: 500px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 50px;
+
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+
+}
+
+.data ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.data ul li {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.data .info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section-two .data ul li button {
+    width: 50px;
+    height: 50px;
+    background-color: darkorange;
+    border-radius: 20%;
+    border: none;
+}
+
+.data .info .prag {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    color: darkslategray;
+}
+
+.section-three {
+    display: flex;
+    justify-content: center;
+    background-color: azure;
+
+}
+
+.section-three .container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100vh;
+    justify-content: center;
+
+}
+
+.topp {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+
+.section-three .topp p {
+    color: darkgreen;
+    text-shadow: 7px 7px 0px yellow;
+    text-align: center;
+}
+
+.b {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 100%;
+    height: 500px;
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+.section-three a {
+    width: 500px;
+    text-align: center;
+    align-items: center;
+}
+.b button {
+    width: 50%;
+    height: 50px;
+    gap: 70px;
+    background-color: gold;
+    cursor: pointer;
+}
+
+.b button:hover {
+    background-color: greenyellow;
+}
+
+.meduim {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+
+}
+
+.meduim .tt {
+    width: 30%;
+    flex-direction: column;
+    gap: 20px;
+    display: flex;
+
+}
+
+.tt img {
+    height: 210px;
+    width: 100%;
+}
+
+.section-four {
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-four .info h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-four h2 {
+    padding-top: 80px;
+    text-shadow: 8px 8px 0px yellow;
+}
+
+.section-five {
+    height: 100vh;
+    background-image: url(./2018-Dodge-Challenger-SRT-Demon-engine-1.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-five .info {
+    background-color: rgb(0, 0, 0);
+
+}
+
+.section-five h2 {
+    padding-top: 20px;
+    padding-right: 30px;
+    font-family: 'pacifico';
+    font-size: xx-large;
+    display: flex;
+    justify-content: right;
+    text-shadow: 3px 3px 0px beige,
+        15px 15px 0px white;
+}
+.navbar a{
+    color: black;
+}
+html{
+    scroll-behavior: smooth;
+}
+.footer1 a {
+color: black;
+}
+.footer1 p{
+    color: white;
+}
+
